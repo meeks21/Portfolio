@@ -1,0 +1,93 @@
+/*styles for portal page*/
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    div#wrapper{
+        width: 940px;
+        margin: 0 auto 0 auto;
+        background: rgba(215, 228, 253, .9);
+        background-color: #436073;
+        color: #F2F2E9;
+/*    padding: 20px;*/
+    }
+    
+    body{
+        background-color: #7A9EEB;
+        background-image: url(../images/city_at_night_blkwht.jpg);
+        font-family: verdana, helvetica, ariel, sans-serif;
+        font-size: 95%;
+        
+    }
+
+    header{
+        margin-bottom: 30px;
+    
+    }
+    main{
+        float: left;
+        width: 560px;
+        padding-left: 20px;
+        margin-bottom: 40px;
+    }
+        
+/*  the default behavior image of a back ground image is to repeat */
+    
+    img.right{
+        float: right;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        border: #152840 solid 2px;  
+    }
+/* sign for a id is # the sign for a class is . (period)*/
+        
+    h1{
+        margin-bottom: 40px;
+        color: #101CEB;
+        font-size: 3em;
+        text-align: center;
+    }
+    h2{
+        margin-bottom: 40px;
+        color: #101CEB;
+        margin-left: 20px;
+    }
+
+    p{
+        margin-bottom: 20px;
+        line-height: 1.4; 
+    }
+    
+    h3{
+        color: #152840;
+        margin-bottom: 8px;
+    }
+    
+    ul{
+        margin-left: 20px;
+        line-height: 1.4; 
+/*        margin-bottom: 40px;*/
+    }
+
+    footer {
+       height: 60px;
+       background-color: #7A9EEB;
+       clear: both;
+       font-size: .8em;
+       padding-left: 60px;
+       background-color: #325573;
+    }
+
+    footer li{
+        float: left;
+        list-style-type: none;
+        margin-right: 60px;
+        line-height: 60px;
+    }
+    
+
+    
+   
+    
