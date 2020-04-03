@@ -12,8 +12,9 @@
     header{
         background:white;
         height: 200px;
-        width: 940px;
+        width: 1120px;
         margin: 0 auto;
+        margin-bottom: 5px;
     }
 
     .header_inner{
@@ -25,18 +26,24 @@
         margin: 0 auto;   
     }
 
+    .logo_header_inner{
+        height: 200px;
+    }
+/* ******************** nav bar **************************** */
+    .nav_buttons_inner{
+        width: 300px;
+        height: 50px;
+        background: tan;
+        float: left;
+    }
+
     .social_media_inner{
-        /* background: tan; */
-        width: 250px;
+        background: tan;
+        width: 100px;
         height: 50px;
         float: right;
         padding-right: 10px;
         padding-top: 10px;
-        margin-top: 150px;
-    }
-
-    .logo_header_inner{
-        height: 200px;
     }
 
     .sm_logos{
@@ -45,13 +52,17 @@
         height: 32px;
     }
     .nav_inner{
-        width: 940px;
+        width: 1120px;
         margin: 0 auto;
+    }
+    .nav_inner{
+        overflow: hidden;
     }
 
     #nav_bar{
-        height: 40px;
-        /* margin-bottom: 20px; */
+        height: 50px;
+        width: 1120px;
+        margin: 0 auto 0 auto;
         background: black;
 
     }
@@ -64,10 +75,9 @@
     }
 
     #wrapper{
-        width: 940px;
+        width: 1120px;
         margin: 0px auto;
-        background: rgba(215, 228, 253, .9);
-        background-color: #436073;
+        background: lightblue;
         color: #F2F2E9;
         height: 100%;
     }
@@ -75,9 +85,10 @@
     main{
         float: left;
         width: 560px;
+        height: 600px;
         padding-left: 20px;
         margin-bottom: 40px;
-        padding-top: 20px;
+        padding-top: 10px;
     }
         
     .right{
