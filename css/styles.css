@@ -6,80 +6,103 @@
     }
     body{
         font-family: verdana, helvetica, ariel, sans-serif;
-        font-size: 95%;   
+        font-size: 95%; 
     }
 /******************** Header ****************************/
     header{
         background:white;
         height: 200px;
         width: 1120px;
-        margin: 0 auto;
-        margin-bottom: 5px;
+        margin: 0 auto 0 auto;
+        /* margin-bottom: 5px; */
     }
 
     .header_inner{
-        width: 250px;
+        width: 190px;
         height: 200px;
-        /* background: tan; */
         display: block;
-        text-align: center;
-        margin: 0 auto;   
+        float: left;
+        margin-bottom: 10px;
+  
     }
 
     .logo_header_inner{
         height: 200px;
     }
 /* ******************** nav bar **************************** */
-    .nav_buttons_inner{
-        width: 300px;
+
+    #nav_bar{
         height: 50px;
-        background: tan;
+        width: 835px;
+        margin: 150px auto 0 auto;
+        float: right;
+
+    }
+
+    .nav_buttons_inner li{
         float: left;
+        margin-left: 30px;
+        line-height: 50px;
+
+
+    }
+
+    .nav_buttons_inner a{
+        display: block;
+        color: black;
+
+    }
+
+    .nav_buttons_inner a:hover{
+        background: teal;
+    }
+
+    .nav_buttons_inner a{
+        text-decoration: none;
+    }
+
+    .nav_inner{
+        width: 740px;
+        float: left;
+        /* padding-right: 20px; */
+        
+    }
+
+    .nav_buttons_inner{
+        width: 280px;
+        height: 50px;
+        /* background: tan; */
+        float: right;
+        margin: 0 auto;
+        
+    }
+
+    .nav_buttons_inner ul{
+        
     }
 
     .social_media_inner{
-        background: tan;
-        width: 100px;
+        /* background: beige; */
+        /* width: 95px; */
         height: 50px;
         float: right;
-        padding-right: 10px;
         padding-top: 10px;
     }
 
     .sm_logos{
-        margin-right: 5px;
         float: right;
         height: 32px;
-    }
-    .nav_inner{
-        width: 1120px;
-        margin: 0 auto;
-    }
-    .nav_inner{
-        overflow: hidden;
+        padding-right: 10px;
     }
 
-    #nav_bar{
-        height: 50px;
-        width: 1120px;
-        margin: 0 auto 0 auto;
-        background: black;
-
-    }
-
-    #nav_bar li{
-        float: left;
-        margin-left: 40px;
-        line-height: 40px;
-        color: white;
-    }
-
+    /* ************** wrapper ************** */
     #wrapper{
         width: 1120px;
         margin: 0px auto;
         background: lightblue;
         color: #F2F2E9;
         height: 100%;
+        clear: both;
     }
 
     main{
@@ -88,7 +111,7 @@
         height: 600px;
         padding-left: 20px;
         margin-bottom: 40px;
-        padding-top: 10px;
+        padding-top: 40px;
     }
         
     .right{
