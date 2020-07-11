@@ -15,7 +15,7 @@
     }
 
     .row{
-        background-image: linear-gradient(rgba(164, 57, 49, 0.7), rgba(0, 0, 0, 0.8)), url(images/iso-republic-cliffside-view-of-the-water-below.jpg);
+        background-image: linear-gradient(rgba(8, 13, 56, 0.6), rgba(0, 0, 0, 0.8)), url(images/green-leafed-plant-1296468.jpg);
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -30,15 +30,26 @@
         /* margin-bottom: 5px; */
     }
 
+    h1{
+        color: whitesmoke;
+    }
+    #greeting{
+        color: whitesmoke;
+    }
+    #typer{
+        color: whitesmoke; 
+    }
+
     .header_inner{
         height: 200px;
         display: block;
         float: left;
         margin-bottom: 10px;
-        position:absolute;
-        top: 50%;
+        margin-top: 20px;
+        /* position:absolute; */
+        /* top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); */
     }
 
 
